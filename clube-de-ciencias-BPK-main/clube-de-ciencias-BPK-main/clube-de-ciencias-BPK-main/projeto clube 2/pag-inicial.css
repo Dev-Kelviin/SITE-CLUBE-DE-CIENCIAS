@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: url(imagens/fundo-tela-inicial.svg); /* img/Frame\ 3.svg */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: #002a68;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+}
+
+.logo img {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.links {
+    width: 40%;
+}
+
+.lista {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+}
+
+.lista ul {
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+.lista ul li {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 2px;
+    background-color: #002a68;
+    width: 115%;
+}
+
+.submenu a:hover {
+    background-color: rgba(255, 72, 0, 0.644);
+    transition: 0.3s;
+}
+
+.lista li:hover > .submenu {
+    display: block;
+}
+
+
+.carrossel{
+    /* posicionamento do carrosel */
+    padding-top: 100px;
+}
+
+.conteiner {
+    padding: 15px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 32vh 32vh 32vh 32vh;
+    grid-template-rows: 32vh;
+    gap: 70px;
+    justify-content: center;  
+}
+
+.conteiner div {
+    background-color: #002a68;
+    border: solid #002a68;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    padding-top: 15px;
+    
+    
+}
+
+.conteiner a{
+    text-decoration: none;
+    color: white;
+}
+
+.conteiner2 a{
+    text-decoration: none;
+    color: white;
+}
+ 
+.conteiner2 {
+    padding: 15px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 47% 27%;
+    grid-template-rows: 25vh;
+    gap: 70px;
+    justify-content: center;
+    margin-bottom: 300px;  
+}
+
+.conteiner2 div {
+    background-color: #002a68;
+    border: solid #002a68;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    border-radius: 15px;
+    grid-template-columns: 47% 27%;
+    grid-template-rows: 25vh;
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+
+.m1 {
+    margin: 0;
+    padding: 0px;
+    background-image: url(imagens/robotica.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center 60px;
+    
+}
+
+.m2 {
+    margin: 0;
+    padding: 0px;
+    background-image: url(imagens/ciencias.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center 65px;
+}
+
+.m3 {
+    margin: 0;
+    padding: 0px;
+    background-image: url(imagens/programação.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+}
+
+.m4 {
+    margin: 0;
+    padding: 0px;
+    background-image: url(imagens/inovação.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center ;
+}
+
+.m5 {
+    margin: 0;
+    padding:0;
+    background-image: url(imagens/n3.png), url(imagens/n1.png), url(imagens/n2.png);
+    background-repeat: no-repeat;
+    background-size: 25%, 20%, 25%;
+    background-position: center right 15px, center left 40px, center center;
+    
+}
+
+.m6 {
+    margin: 0;
+    padding:0;
+    background-image: url(imagens/pre-clube.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center bottom;
+    
+}
+
+.rodape{
+    display: flex;
+    background-color: #002a68;
+    justify-content: space-evenly;
+    width: 100%;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+}
+
+.rodape div{
+    /* border: solid black; */
+    width: 30%;
+    padding-top: 25px;
+    justify-content: center;
+    
+}
+
+.logo-rodape {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.icones-rodape{
+    width: 50%;
+}
+
+.rodape h3{
+    padding-left: 20px;
+}
+
+.rodape p{
+    padding-left: 20px;
+}
+
+.rodape h4{
+    padding-left: 20px;
+}
+
+.empresa1-rodape{
+    width: 30%;
+}
+
+.empresa2-rodape{
+    width: 20%;
+}
+
+.empresa3-rodape{
+    width: 40%;
+}
+
+.coluna1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.coluna2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.coluna3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
